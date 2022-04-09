@@ -1,0 +1,16 @@
+.introducao-bg {
+  background: #000;
+}
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+  color: white;
+}
+.introducao-conteudo {
+  align-self: end;
+  padding-bottom: 80px;
+}
+.introducao h1 {
+  margin-bottom: 32px;
+}
