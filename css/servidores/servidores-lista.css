@@ -24,6 +24,7 @@
 }
 .servidores-lista img {
   margin-bottom: 16px;
+  max-height: 500px;
 }
 .servidores-lista li span {
   color: #bcffb8;
