@@ -5,7 +5,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  color: white;
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .introducao-conteudo {
   align-self: end;
@@ -13,4 +18,27 @@
 }
 .introducao h1 {
   margin-bottom: 32px;
+  font-size: 64px;
+  line-height: 1.125;
+}
+.introducao p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #b2b2b2;
+}
+.introducao a {
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(#3882d9, #c7228b);
+  border-radius: 4px;
+  box-shadow: 0 2px 15px 0 #6960bd;
+  text-transform: uppercase;
+  color: yellow;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: bold;
+}
+.introducao a:hover {
+  background: linear-gradient(#636468, #010203);
 }
