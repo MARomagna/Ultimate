@@ -1,6 +1,7 @@
 .servidores-lista {
   padding-top: 60px;
   padding-bottom: 120px;
+  background: var(--cor-C);
 }
 .servidores-lista h2 {
   margin-bottom: 40px;
