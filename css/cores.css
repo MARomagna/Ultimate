@@ -5,6 +5,7 @@
   --cor-B: #fff;
   --cor-AC: #25a9dd;
   --cor-LA: #dd5c20;
+  --cor-VD: #15fc09;
 }
 .cor-p {
   color: var(--cor-P);
@@ -26,4 +27,7 @@
 }
 .cor-am {
   color: #d6df58;
+}
+.cor-vd {
+  color: #15fc09;
 }
