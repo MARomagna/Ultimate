@@ -43,9 +43,29 @@
         <label for="hospedagem">Hospedagem</label>
         <div class="orcamento-conteudo" id="orcamento-vip">
           <h2 class="font-1-xs cor-ac">Escolha o seu VIP</h2>
-
           <input type="radio" name="produto" value="vipd" id="vipd">
           <label for="vipd">VIP Diamante<span>R$ 50,00</span></label>
+          <div class="orcamento-detalhes">
+            <ul class="font-1-xs cor-b">
+              <li class="cor-ac"><img src="./img/diamante1.png" alt="">Base Diamante</li>
+              <li>Bica d'água</li>
+              <li>Banco</li>
+              <li>CabinZ ou Garagem</li>
+              <li>Carro com seguro</li>
+            </ul>
+            <img src="./img/base1.png" alt="">
+          </div>
+
+          <input type="radio" name="produto" value="vipu" id="vipu">
+          <label for="vipu">VIP Ultimate<span>R$ 100,00</span></label>
+          <input type="radio" name="produto" value="vipe" id="vipe">
+          <label for="vipe">VIP Exclusive<span>R$ 180,00</span></label>
+
+          <input type="radio" name="produto" value="slot" id="slot">
+          <label for="slot">Slot 1.000<span>R$ 30,00</span></label>
+
+          <input type="radio" name="produto" value="armas" id="armas">
+          <label for="armas">kit armamento<span>R$ 80,00</span></label>
 
         </div>
         <div class="orcamento-conteudo" id="orcamento-hospedagem">
@@ -72,6 +92,28 @@
         <div class="col-2">
           <label for="nome">Email</label>
           <input type="email" id="email" name="email">
+          <label for="cep">CEP</label>
+          <input type="text" id="cep" name="cep">
+        </div>
+        <div>
+          <label for="numero">Número</label>
+          <input type="text" id="numero" name="numero">
+        </div>
+        <div>
+          <label for="logradouro">Logradouro</label>
+          <input type="text" id="logradouro" name="logradouro">
+        </div>
+        <div>
+          <label for="bairro">Bairro</label>
+          <input type="text" id="bairro" name="bairro">
+        </div>
+        <div>
+          <label for="cidade">Cidade</label>
+          <input type="text" id="cidade" name="cidade">
+        </div>
+        <div>
+          <label for="estado">Estado</label>
+          <input type="text" id="estado" name="estado">
         </div>
         <button class="botao secundario col-2">Solicite Orçamento</button>
       </div>
