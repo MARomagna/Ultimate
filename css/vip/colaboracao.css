@@ -5,8 +5,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
+  gap: 80px;
 }
 .colaboracao-img {
   max-width: 400px;
@@ -34,15 +34,26 @@
 .colaboracao p {
   grid-column: 1/-1;
 }
-.colaboracao h2 {
+#diamante {
   margin-bottom: 20px;
   position: relative;
 }
-.colaboracao h2::before {
+#diamante:before {
   content: url("../../img/diamante1.png");
   display: inline-block;
   position: absolute;
   left: 255px;
+}
+#ultimate {
+  margin-bottom: 20px;
+  position: relative;
+}
+#ultimate:before {
+  content: url("../../img/corujapequena.png");
+  display: inline-block;
+  position: absolute;
+  left: 220px;
+  margin-top: -25px;
 }
 .colaboracao p {
   margin-bottom: 32px;
@@ -80,8 +91,11 @@
   .colaboracao-img {
     max-width: 400px;
   }
-  .colaboracao h2::before {
+  #diamante:before {
     left: 200px;
+  }
+  #ultimate:before {
+    left: 180px;
   }
 }
 @media (max-width: 600px) {
@@ -100,3 +114,13 @@
     max-width: 200px;
   }
 }
+/*.colaboracao h2 {
+  margin-bottom: 20px;
+  position: relative;
+}*/
+/*.colaboracao h2::before {
+  content: url("../../img/diamante1.png");
+  display: inline-block;
+  position: absolute;
+  left: 255px;
+}*/
