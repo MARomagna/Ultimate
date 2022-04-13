@@ -50,8 +50,8 @@
 }
 /*titulo internos*/
 .titulo-bg {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background: var(--cor-PC);
 }
 .titulo {
