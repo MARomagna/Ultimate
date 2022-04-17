@@ -20,3 +20,7 @@ function ativarProduto(parametro) {
 }
 console.log(parametros);
 parametros.forEach(ativarProduto);
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
